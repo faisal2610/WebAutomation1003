@@ -20,7 +20,7 @@ public class GmailSigninTest {
 	        driver.get("https://accounts.google.com/ServiceLogin?");
 	        driver.findElement(By.id("identifierId")).sendKeys("mdfasial.hossain1992@gmail.com");
 	        driver.findElement(By.id("identifierNext")).click();
-	        driver.findElement(By.xpath("//input[@aria-label='Enter your password' and @name='password']")).sendKeys("JLKSFJASL FKJ");
+	        driver.findElement(By.xpath("//input[@aria-label='Enter your password' and @name='password']")).sendKeys("JLKSFJASL");
 	        Thread.sleep(200);
 	        driver.findElement(By.id("passwordNext")).click();
 	        
