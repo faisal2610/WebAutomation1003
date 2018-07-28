@@ -9,8 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class GmailSigninTest {
 	public static void main(String[] args) throws Throwable {
 	       
-	    	System.setProperty("webdriver.chrome.driver","C:\\Users\\mdfai\\utilities\\drivers\\chromedriver.exe");
-	        
+	    	System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+	               
 	        WebDriver driver = new ChromeDriver();  // You can use any other web browser.
 	        driver.get("https://www.google.com/");
 	        System.out.println(driver.getTitle());

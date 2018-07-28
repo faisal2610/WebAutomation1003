@@ -6,10 +6,15 @@
   <name>WebAutomation1003</name>
   <description>WebAutomation1003</description>
   <dependencies>
+  
   	<dependency>
   		<groupId>org.seleniumhq.selenium</groupId>
   		<artifactId>selenium-java</artifactId>
-  		<version>3.13.0</version>
+  		<version>3.12.0</version>
   	</dependency>
+  	
+  	
+  	
+  	
   </dependencies>
 </project>
